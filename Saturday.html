@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstarp.min.css">
+    <script src="./bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        button{
+            border-radius: 10px;
+            padding: 12px;
+            color: white;
+            background-color: darkgreen;
+            transition: 1s;
+        }
+        button:hover{
+            background-color: white;
+            color: darkgreen;
+            transition: 1s;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <h2><b>Sign Up</b></h2><br>
+        <form action="#" class="was-validated">
+            <div class="form-floating col-md-4">
+                <input type="text" name="name" placeholder="Your Name" class="form-control" required>
+                <label for="name">Your Name</label>
+                <div class="valid-feedback">Valid Data.</div>
+                <div class="invalid-feedback">Please Enter a Valid Name.</div>
+            </div><br>
+            <div class="form-floating col-md-4">
+                <input type="email" name="email" placeholder="example@ex.com" class="form-control" required>
+                <label for="email">Your Email Address</label>
+                <div class="valid-feedback">Valid Data.</div>
+                <div class="invalid-feedback">Please Enter a Valid Email.</div>
+            </div><br>
+            <div class="form-floating col-md-4">
+                <input type="password" name="password" placeholder="Enter Your Password" class="form-control" required>
+                <label for="password">Enter Your Password</label>
+                <div class="valid-feedback">Valid Data.</div>
+                <div class="invalid-feedback">Please Enter a Valid Password.</div>
+            </div><br>
+           <button type="button" class="col-md-4 ">Sign Up</button>
+
+        </form>
+    </div>
+</body>
+</html>
